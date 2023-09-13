@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#verso1 {
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.v1 {
+    position: relative;
+    
+    
+}
+
+.v1 > p {
+    background-color: gray;
+    position: absolute;
+    margin: auto;
+    font-size: 2em;
+}
