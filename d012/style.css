@@ -18,7 +18,7 @@
 
 body {
     margin: auto;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -55,16 +55,13 @@ header a:hover {
 section {
     font-family: var(--fonte3);
     font-size: 3.5vw;
-    font-weight: normal;
     background-color: white;
     background-attachment: fixed;
-    padding-left: 0.8em;
+    padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    position: relative;
     line-height: 2em;
 }
-
 
 section > P {
     padding-bottom: 2em;
@@ -82,7 +79,7 @@ section.imagem {
 }
 #img1 {
     background-image: url(imagens/background001.jpg);
-    background-position:  right center;
+    background-position: right center;
     background-size: cover;
 }
 
