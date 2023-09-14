@@ -59,8 +59,10 @@ section {
     background-color: white;
     background-attachment: fixed;
     padding-left: 0.8em;
-    padding-top: 1em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     position: relative;
+    line-height: 2em;
 }
 
 
@@ -69,11 +71,8 @@ section > P {
 }
 
 section.imagem {
-    height: 105vh;
-    width: 100vw;
     box-shadow: inset -1px 11px 20px 2px #0000006b;
 }
-
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.486);
@@ -83,13 +82,13 @@ section.imagem {
 }
 #img1 {
     background-image: url(imagens/background001.jpg);
-    background-position:  center center;
+    background-position:  right center;
     background-size: cover;
 }
 
 #img2 {
     background-image: url(imagens/background002.jpg);
-    background-position: center center;
+    background-position: right center;
     background-size: cover; 
 }
 
