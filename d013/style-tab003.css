@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(160, 160, 160);
+}
+table {
+    background-color: rgb(219, 218, 218);
+    border: 1px solid black;
+    box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.411);
+    margin: auto;
+    max-width: 500px;
+}
+td {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 400px;
+    text-align: center;
+}
+caption {
+    background-color: rgb(31, 30, 30);
+    padding: 5px;
+    border: 1px solid black;
+    color: white;
+}
+td.rowspan {
+    background-color: rgba(216, 123, 123, 0.726);
+}
+td.colspan {
+    background-color: rgba(216, 123, 123, 0.726);
+}
+td.colspan:hover{
+    background-color: red;
+    font-weight: bolder;
+}
+td.rowspan:hover{
+    background-color: red;
+    font-weight: bolder;
+}
